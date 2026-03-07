@@ -1,9 +1,51 @@
-body {
-    margin: 0;
-    font-family: serif;
-    background: #eee;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-header {
-    text-align: center;
-    padding: 20px;
+body{
+    background:#e6e6e6;
+    font-family: serif;
+}
+header{
+    text-align:center;
+    padding:20px;
+}
+nav{
+    margin-top:10px;
+}
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:blue;
+    font-size:18px;
+}
+
+.intro{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.intro-text{
+    max-width:700px;
+    line-height:1.6;
+}
+.Gallery{
+    display:flex;
+    flex-wrap:wrap;
+}
+.Gallery img,
+.Gallery video{
+    height:220px;
+    flex-grow:1;
+    object-fit:cover;
+}
+
+.Gallery img{
+    display:block;
+}
+
+.Gallery video{
+    display:block;
 }
