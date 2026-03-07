@@ -1,5 +1,5 @@
 header {
-    background-color:gray ;
+    background-color:rgba(128, 128, 128, 0.625) ;
     padding: 20px;
 }
 nav {
@@ -17,11 +17,11 @@ section {
     margin-bottom: 20px;
 }
 aside{
-    background-color: #d9d9d9;
+    background-color: rgba(255, 255, 0, 0.558);
     padding: 15px;
     margin: 20px;
 }
 footer {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.625);
     padding: 15px;
 }   
