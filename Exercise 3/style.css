@@ -9,7 +9,7 @@ body{
     background:#d3d3d3;
 }
 
-/* HEADER */
+
 
 header{
     text-align:center;
@@ -31,7 +31,6 @@ nav a{
     font-size:18px;
 }
 
-/* INTRO */
 
 .intro{
     display:flex;
@@ -51,7 +50,6 @@ nav a{
     object-fit:cover;
 }
 
-/* GALLERY */
 
 .Gallery{
     width:100%;
@@ -62,7 +60,6 @@ nav a{
     width:100%;
 }
 
-/* IMAGE + VIDEO */
 
 .row img,
 .row video{
@@ -71,7 +68,6 @@ nav a{
     object-fit:cover;
 }
 
-/* SIZE CONTROL */
 
 .big{
     flex:2;
@@ -80,8 +76,6 @@ nav a{
 .small{
     flex:1;
 }
-
-/* RESPONSIVE */
 
 @media (max-width:900px){
 
