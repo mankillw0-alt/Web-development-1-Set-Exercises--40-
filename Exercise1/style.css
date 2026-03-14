@@ -1,7 +1,9 @@
+/*Header*/
 header { 
     background-color:rgba(128, 128, 128, 0.625) ;
     padding: 20px;
 }
+/*navigation bar*/
 nav {
     margin-top: 12px;
 }
@@ -10,6 +12,7 @@ nav a{
     color:blue;
     text-decoration: underline;
 }
+/*Paragraph*/
 main {
     padding: 20px;
 }
@@ -21,6 +24,7 @@ aside{
     padding: 15px;
     margin: 20px;
 }
+/*Footer*/
 footer {
     background-color: rgba(128, 128, 128, 0.625);
     padding: 15px;
