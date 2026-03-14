@@ -9,7 +9,7 @@ body{
     background:#d3d3d3;
 }
 
-
+/* HEADER */
 
 header{
     text-align:center;
@@ -31,6 +31,7 @@ nav a{
     font-size:18px;
 }
 
+/* INTRO SECTION */
 
 .intro{
     display:flex;
@@ -45,21 +46,25 @@ nav a{
 
 .intro img{
     flex:1;
-    width:100%;
     max-height:350px;
+    width:100%;
     object-fit:cover;
 }
 
+/* GALLERY */
 
 .Gallery{
     width:100%;
 }
+
+/* EACH ROW */
 
 .row{
     display:flex;
     width:100%;
 }
 
+/* MEDIA */
 
 .row img,
 .row video{
@@ -68,14 +73,29 @@ nav a{
     object-fit:cover;
 }
 
+/* FIRST ROW LAYOUT */
 
-.big{
+.row:first-child video{
     flex:2;
 }
 
-.small{
+.row:first-child img{
     flex:1;
 }
+
+/* SECOND ROW */
+
+.row:nth-child(2) img{
+    flex:1;
+}
+
+/* THIRD ROW */
+
+.row:nth-child(3) img{
+    flex:1;
+}
+
+/* RESPONSIVE */
 
 @media (max-width:900px){
 
