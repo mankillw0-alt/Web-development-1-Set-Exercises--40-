@@ -1,9 +1,10 @@
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-
+/*Font and background color*/
 body{
     font-family: Georgia, 'Times New Roman', serif;
     background:#d3d3d3;
@@ -23,7 +24,7 @@ header h1{
 nav{
     margin-top:10px;
 }
-
+/*Hyperlink*/
 nav a{
     margin:0 15px;
     text-decoration:none;
@@ -31,7 +32,7 @@ nav a{
     font-size:18px;
 }
 
-/* INTRO SECTION */
+/* Intro section */
 
 .intro{
     display:flex;
@@ -51,20 +52,20 @@ nav a{
     object-fit:cover;
 }
 
-/* GALLERY */
+/* Gallery */
 
 .Gallery{
     width:100%;
 }
 
-/* EACH ROW */
+/* Each row */
 
 .row{
     display:flex;
     width:100%;
 }
 
-/* MEDIA */
+/* Media */
 
 .row img,
 .row video{
@@ -73,7 +74,7 @@ nav a{
     object-fit:cover;
 }
 
-/* FIRST ROW LAYOUT */
+/* First row layout */
 
 .row:first-child video{
     flex:2;
@@ -83,19 +84,18 @@ nav a{
     flex:1;
 }
 
-/* SECOND ROW */
+/* Second row */
 
 .row:nth-child(2) img{
     flex:1;
 }
 
-/* THIRD ROW */
+/* Third row */
 
 .row:nth-child(3) img{
     flex:1;
 }
 
-/* RESPONSIVE */
 
 @media (max-width:900px){
 
